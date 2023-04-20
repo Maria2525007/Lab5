@@ -31,7 +31,6 @@ public class FileWorker implements FileWorkerInterface {
     @Override
     public String getFromXmlFormat() {
 
-        // String filePath = System.getenv("FILE_PATH");
         String filePath = "C:\\Users\\maria\\IdeaProjects\\Lab5\\Test.xml";
 
         if (filePath == null) {
@@ -67,7 +66,6 @@ public class FileWorker implements FileWorkerInterface {
     @Override
     public String saveToXml() {
 
-       // String filePath = System.getenv("FILE_PATH");
         String filePath = "C:\\Users\\maria\\IdeaProjects\\Lab5\\Test.xml";
 
         if (filePath == null) return TextFormatting.getRedText("\tProgram can't find xml file. " +
