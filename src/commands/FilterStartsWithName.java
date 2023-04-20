@@ -23,8 +23,7 @@ public class FilterStartsWithName extends CommandAbstract implements QueueContro
      * @param aPreviousCommands  - Variable to control previous commands
      */
     public FilterStartsWithName(CollectionManager aCollectionManager, Queue<String> aPreviousCommands) {
-        super("filter_starts_with_name", "output elements whose name field value starts " +
-                "with the specified substring");
+        super("filter_starts_with_name");
         collection = aCollectionManager.getCollection();
         previousCommands = aPreviousCommands;
     }

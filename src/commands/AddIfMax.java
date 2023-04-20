@@ -27,8 +27,7 @@ public class AddIfMax extends CommandAbstract implements QueueController {
      * @param aPreviousCommands  - Variable to control previous commands
      */
     public AddIfMax(StudyGroupFactory aStudyGroupFactory, CollectionManager aCollectionManager, Queue<String> aPreviousCommands) {
-        super("add_if_max", "add new element to the collection, if it`s greater, " +
-                "than biggest element of this collection.");
+        super("add_if_max");
         studyGroupFactory = aStudyGroupFactory;
         collectionManager = aCollectionManager;
         previousCommands = aPreviousCommands;

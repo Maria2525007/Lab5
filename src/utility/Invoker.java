@@ -78,11 +78,12 @@ public class Invoker implements InvokerInterface, FieldsProtectorInterface {
         commands.put("save", new Save(fileWorker, previousCommands));
         commands.put("execute_script", new ExecuteScript(this, previousCommands));
         commands.put("add_if_max", new AddIfMax(studyGroupFactory, collectionManager, previousCommands));
-        commands.put("add_if_min", new AddIfMin(studyGroupFactory, collectionManager, previousCommands));
         commands.put("history", new History(previousCommands));
-        commands.put("min_by_students_count", new MinByStudentsCount(collectionManager, previousCommands));
-        commands.put("count_less_than_students_count", new CountLessThanStudentsCount(collectionManager,
-                previousCommands));
+        commands.put("exit", new Exit(previousCommands));
+        commands.put("remove_all_by_location", new RemoveAllByLocation(collectionManager, previousCommands));
+        commands.put("remove_lower", new RemoveLower(studyGroupFactory, collectionManager, previousCommands));
+        commands.put("filter_greater_than_location", new FilterGreaterThanLocation(collectionManager, previousCommands));
+        commands.put("filter_less_than_birthday", new FilterLessThanBirthday(collectionManager, previousCommands));
         commands.put("filter_starts_with_name", new FilterStartsWithName(collectionManager, previousCommands));
     }
 }

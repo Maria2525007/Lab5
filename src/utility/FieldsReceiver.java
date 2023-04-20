@@ -175,7 +175,7 @@ public class FieldsReceiver implements FieldsReceiverInterface, FieldsProtectorI
         String line;
         String name;
         long weight;
-        Color hairColor;
+        Country hairColor;
 
         if (console.getExeStatus()) {
             do {
@@ -217,7 +217,7 @@ public class FieldsReceiver implements FieldsReceiverInterface, FieldsProtectorI
             } while (!getGroupAdminHairColorCorrectStatus(line));
 
         } else {
-            line = getFirstEnumRequest("group admin hair color", Arrays.toString(Color.values())
+            line = getFirstEnumRequest("group admin hair color", Arrays.toString(Country.values())
                     + TextFormatting.getBlueText("\n-----")
                     + TextFormatting.getBlueText("\n\tYou can write form of education in lower case!")
                     + TextFormatting.getBlueText("\n-----"), console);
@@ -226,7 +226,7 @@ public class FieldsReceiver implements FieldsReceiverInterface, FieldsProtectorI
                 line = getUniversalEnumRequest("group admin hair color", console);
             }
         }
-        hairColor = Color.valueOf(line.toUpperCase());
+        hairColor = Country.valueOf(line.toUpperCase());
 
         return new Person(name, weight, hairColor);
     }

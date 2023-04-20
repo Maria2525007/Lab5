@@ -23,7 +23,7 @@ public class Show extends CommandAbstract implements QueueController {
      * @param aPreviousCommands  - Variable to control previous commands
      */
     public Show(CollectionManager aCollectionManager, Queue<String> aPreviousCommands) {
-        super("show", "print all elements in string representation to standard output");
+        super("show");
         collectionManager = aCollectionManager;
         previousCommands = aPreviousCommands;
     }

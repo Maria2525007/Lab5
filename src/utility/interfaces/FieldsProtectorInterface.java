@@ -1,7 +1,6 @@
 package utility.interfaces;
 
-import data.Color;
-import data.FormOfEducation;
+import data.Country;
 import data.Semester;
 
 import java.util.Date;
@@ -102,6 +101,6 @@ public interface FieldsProtectorInterface {
 
     default boolean getGroupAdminHairColorCorrectStatus(String line) {
 
-        return line != null && !line.equals("null") && Color.isIncludeElement(line);
+        return line != null && !line.equals("null") && Country.isIncludeElement(line);
     }
 }

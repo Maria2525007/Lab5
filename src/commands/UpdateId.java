@@ -28,8 +28,7 @@ public class UpdateId extends CommandAbstract implements FieldsProtectorInterfac
      * @param aPreviousCommands  - Variable to control previous commands
      */
     public UpdateId(StudyGroupFactory aStudyGroupFactory, CollectionManager aCollectionManager, Queue<String> aPreviousCommands) {
-        super("update", "update the element`s value, whose ID is equal to the given. " +
-                TextFormatting.getBlueText("\n\tYou should to enter ID after entering a command"));
+        super("update");
         studyGroupFactory = aStudyGroupFactory;
         collectionManager = aCollectionManager;
         previousCommands = aPreviousCommands;

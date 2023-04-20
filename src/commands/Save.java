@@ -21,7 +21,7 @@ public class Save extends CommandAbstract implements QueueController {
      * @param aPreviousCommands - Variable to control previous commands
      */
     public Save(FileWorker aFileWorker, Queue<String> aPreviousCommands) {
-        super("save", "save the collection to file");
+        super("save");
         fileWorker = aFileWorker;
         previousCommands = aPreviousCommands;
     }

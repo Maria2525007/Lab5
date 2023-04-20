@@ -24,8 +24,7 @@ public class ExecuteScript extends CommandAbstract implements QueueController {
      * @param aPreviousCommands - Variable to control previous commands
      */
     public ExecuteScript(Invoker aInvoker, Queue<String> aPreviousCommands) {
-        super("execute_script", "Read and execute script from entered file" +
-                TextFormatting.getBlueText("\n\tYou should to enter script name after entering a command"));
+        super("execute_script");
         invoker = aInvoker;
         previousCommands = aPreviousCommands;
     }

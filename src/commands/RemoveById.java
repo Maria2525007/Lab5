@@ -24,8 +24,7 @@ public class RemoveById extends CommandAbstract implements FieldsProtectorInterf
      * @param aPreviousCommands  - Variable to control previous commands
      */
     public RemoveById(CollectionManager aCollectionManager, Queue<String> aPreviousCommands) {
-        super("remove_by_id", "remove an element from the collection by ID." +
-                TextFormatting.getBlueText("\n\tYou should to enter ID after entering a command"));
+        super("remove_by_id");
         collectionManager = aCollectionManager;
         previousCommands = aPreviousCommands;
     }

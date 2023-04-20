@@ -9,9 +9,15 @@ import java.util.Objects;
  */
 @XmlType(propOrder = {"name", "weight", "hairColor"})
 public class Person {
-    private String name;
-    private Long weight;
-    private Color hairColor;
+    private Integer id; //Поле не может быть null, Значение поля должно быть больше 0, Значение этого поля должно быть уникальным, Значение этого поля должно генерироваться автоматически
+    private String name; //Поле не может быть null, Строка не может быть пустой
+    private Coordinates coordinates; //Поле не может быть null
+    private java.util.Date creationDate; //Поле не может быть null, Значение этого поля должно генерироваться автоматически
+    private int height; //Значение поля должно быть больше 0
+    private java.util.Date birthday; //Поле не может быть null
+    private String passportID; //Длина строки должна быть не меньше 6, Строка не может быть пустой, Поле может быть null
+    private Country nationality; //Поле не может быть null
+    private Location location; //Поле не может быть null
 
     /**
      * Class constructor
@@ -20,7 +26,7 @@ public class Person {
      * @param aWeight    - admin weight
      * @param aHairColor - admin color
      */
-    public Person(String aName, Long aWeight, Color aHairColor) {
+    public Person(String aName, Long aWeight, Country aHairColor) {
         name = aName;
         weight = aWeight;
         hairColor = aHairColor;
@@ -46,7 +52,7 @@ public class Person {
     }
 
     @XmlElement
-    public void setHairColor(Color aHairColor) {
+    public void setHairColor(Country aHairColor) {
         hairColor = aHairColor;
     }
 
@@ -58,7 +64,7 @@ public class Person {
         return weight;
     }
 
-    public Color getHairColor() {
+    public Country getHairColor() {
         return hairColor;
     }
 

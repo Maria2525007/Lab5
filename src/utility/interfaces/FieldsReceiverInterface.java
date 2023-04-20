@@ -1,7 +1,6 @@
 package utility.interfaces;
 
 import data.Coordinates;
-import data.FormOfEducation;
 import data.Person;
 import data.Semester;
 import utility.TextFormatting;

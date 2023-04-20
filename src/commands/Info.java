@@ -22,8 +22,7 @@ public class Info extends CommandAbstract implements QueueController {
      * @param aPreviousCommands  - Variable to control previous commands
      */
     public Info(CollectionManager aCollectionManager, Queue<String> aPreviousCommands) {
-        super("info", "Print information about the collection (type, "
-                + "initialization date, number of elements, etc.) to standard output");
+        super("info");
         collectionManager = aCollectionManager;
         previousCommands = aPreviousCommands;
     }

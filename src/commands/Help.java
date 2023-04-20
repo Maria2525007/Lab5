@@ -21,7 +21,7 @@ public class Help extends CommandAbstract implements QueueController {
      * @param aPreviousCommands - Variable to control previous commands
      */
     public Help(Map<String, CommandAbstract> aCommands, Queue<String> aPreviousCommands) {
-        super("help", "display help for available commands");
+        super("help");
         commandsInfo = aCommands;
         previousCommands = aPreviousCommands;
     }

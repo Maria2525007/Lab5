@@ -21,7 +21,7 @@ public class Clear extends CommandAbstract implements QueueController {
      * @param aPreviousCommands  - Variable to control previous commands
      */
     public Clear(CollectionManager aCollectionManager, Queue<String> aPreviousCommands) {
-        super("clear", "clear the collection");
+        super("clear");
         collectionManager = aCollectionManager;
         previousCommands = aPreviousCommands;
     }

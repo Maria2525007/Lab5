@@ -27,7 +27,7 @@ public class Add extends CommandAbstract implements QueueController {
      * @param aPreviousCommands  - Variable to control previous commands
      */
     public Add(StudyGroupFactory aStudyGroupFactory, CollectionManager aCollectionManager, Queue<String> aPreviousCommands) {
-        super("add", "add new element to the collection");
+        super("add");
         studyGroupFactory = aStudyGroupFactory;
         collectionManager = aCollectionManager;
         previousCommands = aPreviousCommands;

@@ -19,7 +19,7 @@ public class History extends CommandAbstract implements QueueController {
      * @param aPreviousCommands - Variable to control previous commands
      */
     public History(Queue<String> aPreviousCommands) {
-        super("history", "print the last 14 commands (without their arguments)");
+        super("history");
         previousCommands = aPreviousCommands;
     }
 

@@ -5,7 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d82346b3-c616-4c54-a602-27ddedebf5b0" name="Changes" comment="3">
+      <change afterPath="$PROJECT_DIR$/src/commands/Exit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/FilterGreaterThanLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/FilterLessThanBirthday.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/RemoveAllByLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/RemoveLower.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/Add.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/AddIfMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/AddIfMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/AddIfMin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/Clear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/Clear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/CommandAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/CommandAbstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/CommandInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/CommandInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/CountLessThanStudentsCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/ExecuteScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/ExecuteScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/FilterStartsWithName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/FilterStartsWithName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/Help.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/Help.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/History.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/History.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/Info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/MinByStudentsCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/RemoveById.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/RemoveById.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/Save.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/Save.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/Show.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/UpdateId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/UpdateId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/FormOfEducation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utility/FieldsReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utility/FieldsReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utility/Invoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utility/Invoker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utility/interfaces/FieldsProtectorInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utility/interfaces/FieldsProtectorInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utility/interfaces/FieldsReceiverInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utility/interfaces/FieldsReceiverInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +80,7 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -72,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682009720600</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="3">
+      <created>1682010681367</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682010681367</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +127,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="3" />
+    <option name="LAST_COMMIT_MESSAGE" value="3" />
   </component>
 </project>

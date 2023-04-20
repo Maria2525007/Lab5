@@ -8,7 +8,9 @@ public interface CommandInterface {
     /**
      * Method for print command's description
      */
-    String getDescription();
+    default String getDescription() {
+        return this.getClass().getSimpleName();
+    };
 
     /**
      * Method for execute command and return execution status
